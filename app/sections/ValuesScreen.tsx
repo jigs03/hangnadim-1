@@ -1,7 +1,7 @@
 import { RevealList } from "next-reveal";
 import Image from "next/image";
-import LPH from "../../public/layered-peaks-haikei2.svg";
 import NADIMLOGO from "../../public/nadimlogo.png";
+import LPH from "../../public/layered-peaks-haikei2.svg";
 
 const Values = () => {
   return (
@@ -30,8 +30,11 @@ const Values = () => {
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-lg flex flex-col items-center justify-center w-[30%]">
             <h1 className="text-orange-200 text-xl drop-shadow-lg">DUTY</h1>
             <p className="text-orange-300 text-sm drop-shadow-lg">
-              Fulfillilling your duty involves completing tasks as part of a 
-              team, resisting shortcuts to maintain the integrity of the final product.
+              Fulfill your obligations. Doing your duty means more than carrying
+              out your assigned tasks. Duty means being able to accomplish tasks
+              as part of a team. You fulfill your obligations as a part of your
+              unit every time you resist the temptation to take {"shortcuts"}{" "}
+              that might undermine the integrity of the final product
             </p>
           </div>
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
